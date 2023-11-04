@@ -1,3 +1,3 @@
-var A = "This is a string";
 
-document.write(A);
+
+document.write("He said: \"Smile!\" ");
