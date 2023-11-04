@@ -1,3 +1,3 @@
 
 
-document.write("He said: \"Smile!\" ");
+document.write("He said: I\'m the author");
