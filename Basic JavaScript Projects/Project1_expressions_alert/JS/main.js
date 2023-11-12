@@ -1,1 +1,2 @@
-document.write(12+12);
+
+
