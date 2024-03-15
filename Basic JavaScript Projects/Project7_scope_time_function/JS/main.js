@@ -40,3 +40,22 @@ function add_number_6(){
 add_number_5();
 add_number_6();
 
+/*Method*/
+function morning() {
+    if (new Date().getHours() <8) {
+    document.getElementById("morning").innerHTML = "Good morning!";
+}
+}
+
+/*IF statment*/
+function hey() {
+const time = new Date().getHours();
+let greeting;
+if (time < 11) {
+  greeting = "Good morning";
+} else if (time < 18) {
+  greeting = "Good day";
+} else {
+  greeting = "Good evening";
+}
+document.getElementById("if").innerHTML = greeting;}

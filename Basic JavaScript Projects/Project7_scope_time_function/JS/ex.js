@@ -1,6 +1,6 @@
 /*Method*/
-function date() {
-    if (new Date().getHours() <8) {
-    document.getElementById("morning").innerHTML = "Good morning?";
+function get_Date() {
+    if (new Date().getHours() <18) {
+    document.getElementById("Greeting").innerHTML = "How are you today?";
 }
 }
