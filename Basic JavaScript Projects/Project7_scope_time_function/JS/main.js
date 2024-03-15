@@ -47,7 +47,7 @@ function morning() {
 }
 }
 
-/*IF statment*/
+/*IF statement*/
 function hey() {
 const time = new Date().getHours();
 let greeting;
@@ -59,3 +59,15 @@ if (time < 11) {
   greeting = "Good evening";
 }
 document.getElementById("if").innerHTML = greeting;}
+
+/*Else statement*/
+function Age_Function(){
+    k = document.getElementById("weight").value;
+    if (k<=10){
+        weight ="Your baggage is according with regulation"
+    }
+    else{
+        weight = "Your baggage excced weight limit";
+    }
+    document.getElementById("baggage").innerHTML = weight;
+}
