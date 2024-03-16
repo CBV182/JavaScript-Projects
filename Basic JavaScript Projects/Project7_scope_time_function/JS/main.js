@@ -71,3 +71,21 @@ function Age_Function(){
     }
     document.getElementById("baggage").innerHTML = weight;
 }
+
+/*Else If Statements*/
+function today(){
+    var Time = new Date().getHours();
+    var Reply;
+
+    if (Time <12 == Time <18){
+        Reply = "It is morning time";
+    }
+
+    else if (Time >=12 == Time <18){
+        Reply = "It is afternoon time";}
+
+        else {
+         Reply = "It is morning time";
+        }
+        document.getElementById("today").innerHTML = Reply;
+}
