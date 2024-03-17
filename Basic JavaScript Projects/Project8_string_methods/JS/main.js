@@ -30,3 +30,10 @@ function String_Method(){
     var X = 359;
     document.getElementById("Numbers_to_String").innerHTML = X.toString();
 }
+
+/*toPrecision() Method*/
+
+function precision(){
+    var X = 13525.2159421889632;
+    document.getElementById("precision").innerHTML = X.toPrecision(10);
+}
