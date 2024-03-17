@@ -37,3 +37,10 @@ function precision(){
     var X = 13525.2159421889632;
     document.getElementById("precision").innerHTML = X.toPrecision(10);
 }
+
+/*New Methods Challenge*/
+
+const num = 22.99123;
+//123.22
+
+document.write(num.toFixed(2));
