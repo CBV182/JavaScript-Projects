@@ -56,3 +56,26 @@ var x = 10
 x = 8;
 document.write(x);
 }
+
+/*return Statement*/
+document.getElementById("return").innerHTML = myFunction("Charlene");
+
+function myFunction(name) {
+  return "Hello " + name;
+}
+
+/*Objects*/
+let car ={
+    make:"dodge ",
+    model:"viper.",
+    year:"2021 ",
+    color:"red ",
+    description: function(){
+        return "The car is a " +  this.year + this.color + this.make + this.model;
+    } 
+};
+document.getElementById("car").innerHTML = car.description();
+
+
+
+
